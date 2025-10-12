@@ -1,0 +1,1166 @@
+/* rs-theme-name: Autumn Dark */
+/* rs-theme-is-dark: TRUE */
+.ace_gutter {
+  background: #343434;
+  color: #818181;
+}
+
+.ace_print-margin {
+  width: 2px;
+  background: #343434;
+}
+
+.ace_editor {
+  background-color: #343434;
+  color: #cccccc;
+}
+
+.rstudio-themes-flat.ace_editor_theme {
+  background-color: #343434;
+  color: #cccccc;
+}
+
+.rstudio-themes-flat.ace_editor_theme .profvis-flamegraph {
+  background-color: #343434;
+  color: #cccccc;
+}
+
+.rstudio-themes-flat .ace_editor_theme {
+  background-color: #343434;
+  color: #cccccc;
+}
+
+.rstudio-themes-flat.editor_dark.ace_editor_theme a {
+  color: #d0b598 !important;
+}
+
+.rstudio-themes-flat .gwt-Label {
+  color: #cccccc;
+}
+
+.ace_cursor {
+  color: #cccccc;
+}
+
+.normal-mode .ace_cursor {
+  border: 0 !important;
+  background-color: #cccccc;
+}
+
+.ace_marker-layer .ace_selection {
+  background: rgba(168, 168, 168, 0.3);
+}
+
+.ace_marker-layer .ace_step {
+  background: #b89268;
+}
+
+.ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+.ace_marker-layer .ace_active-line {
+  background: #3a3a3a;
+}
+
+.ace_marker-layer .ace_selected-word {
+  border: 1px solid rgba(168, 168, 168, 0.3);
+}
+
+.ace_marker-layer .ace_foreign_line {
+  position: absolute;
+  z-index: -1;
+  background-color: #3a3a3a;
+}
+
+.ace_marker-layer .ace_active_debug_line {
+  position: absolute;
+  z-index: -1;
+  background-color: #343434;
+}
+
+.ace_marker-layer .ace_find_line {
+  position: absolute;
+  z-index: -1;
+  background-color: rgba(168, 168, 168, 0.3);
+}
+
+.ace_gutter-active-line {
+  background-color: #343434;
+}
+
+.ace_fold {
+  background-color: rgba(204, 204, 204, 0.5);
+  border: 1px solid #cccccc !important;
+}
+
+.ace_indent-guide {
+  border-right: 1px solid rgba(204, 204, 204, 0.3);
+  margin-right: -1px;
+}
+
+.ace_active-line ~ .ace_selection.ace_start {
+  background-color: #343434;
+}
+
+.ace_keyword {
+  font-style: normal;
+  color: #c0a982;
+}
+
+.ace_keyword.ace_operator {
+  font-style: normal;
+  color: #c59981;
+}
+
+.ace_keyword.ace_other.ace_unit {
+  font-style: normal;
+  color: #c0a982;
+}
+
+.ace_constant.ace_language {
+  color: #c0a982;
+}
+
+.ace_constant.ace_numeric {
+  color: #c0a982;
+}
+
+.ace_constant.ace_character {
+  color: #b47664;
+}
+
+.ace_constant.ace_other {
+  color: #cccccc;
+}
+
+.ace_support.ace_function {
+  color: #8a766c;
+}
+
+.ace_support.ace_constant {
+  color: #b47664;
+}
+
+.ace_support.ace_class {
+  font-style: italic;
+  color: #d0b598;
+}
+
+.ace_support.ace_type {
+  color: #d0b598;
+}
+
+.ace_paren.ace_keyword.ace_operator {
+  color: #cccccc;
+}
+
+.ace_storage {
+  color: #c0a982;
+}
+
+.ace_storage.ace_type {
+  color: #c0a982;
+}
+
+.ace_invalid {
+  background-color: rgba(175, 113, 80, 0.5);
+}
+
+.ace_invalid.ace_deprecated {
+  background-color: rgba(192, 169, 130, 0.5);
+}
+
+.ace_string {
+  color: #b89268;
+}
+
+.ace_comment {
+  color: #818181;
+}
+
+.ace_invisible {
+  color: rgba(204, 204, 204, 0.3);
+}
+
+.ace_variable {
+  color: #cccccc;
+}
+
+.ace_variable.ace_parameter {
+  color: #b47664;
+}
+
+.ace_identifier {
+  color: #cccccc;
+  background-color: inherit;
+}
+
+.ace_entity.ace_name.ace_function {
+  color: #8a766c;
+}
+
+.ace_entity.ace_name.ace_tag {
+  color: #b89268;
+}
+
+.ace_entity.ace_other.ace_attribute-name {
+  color: #c59981;
+}
+
+.ace_bracket {
+  margin: 0 !important;
+  border: 0 !important;
+  background-color: rgba(204, 204, 204, 0.4);
+}
+
+.ace_console_error {
+  background-color: rgba(175, 113, 80, 0.3);
+}
+
+.ace_layer {
+  z-index: 4;
+}
+
+.ace_layer.ace_print-margin-layer {
+  z-index: 2;
+}
+
+.ace_layer.ace_marker-layer {
+  z-index: 1;
+}
+
+.ace_layer.ace_cursor-layer {
+  z-index: 3;
+}
+
+.ace_selection.ace_start {
+  box-shadow: 0 0 3px 0 #343434;
+  border-radius: 2px;
+}
+
+.ace_meta.ace_tag {
+  color: #d0b598;
+}
+
+.ace_markup.ace_heading,
+.ace_markup.ace_heading ~ .ace_heading {
+  font-weight: bold;
+  color: #c0a982;
+}
+
+.ace_support.ace_function.ace_codebegin, .ace_support.ace_function.ace_codeend {
+  color: #b47664;
+}
+
+.ace_markup.ace_href {
+  color: #d0b598;
+}
+
+.nocolor.ace_editor .ace_line span {
+  color: #c0a982 !important;
+}
+
+#rstudio_console_input .ace_marker-layer .ace_selection {
+  background: rgba(168, 168, 168, 0.3);
+}
+
+/* ---- RStudio Theme ---- */
+/* background */
+.rstudio-themes-flat .rstudio-themes-dark-grey {
+  background: #3a3a3a !important;
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-background {
+  background: #3a3a3a !important;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey [role="banner"] + [role="navigation"] > table > tbody > tr > td,
+.rstudio-themes-flat .rstudio-themes-dark-grey header + [role="navigation"] > table > tbody > tr > td {
+  background: #3a3a3a;
+  border-color: #343434;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .rstudio-themes-border {
+  border-color: #343434;
+}
+
+/* inactive tabs */
+table.rstheme_tabLayoutCenter,
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs,
+.rstheme_multiPodUtilityTabArea {
+  background: #3a3a3a !important;
+}
+
+table.rstheme_tabLayoutCenter .gwt-Label,
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs .gwt-Label,
+.rstheme_multiPodUtilityTabArea .gwt-Label {
+  color: #a8a8a8;
+}
+
+/* toolbar and selected tab */
+.rstudio-themes-flat .rstudio-themes-dark-grey .rstheme_center,
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTab-selected table.rstheme_tabLayoutCenter {
+  background: #3a3a3a !important;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTab-selected .gwt-Label {
+  color: #cccccc;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-TabLayoutPanelTab:hover .rstheme_tabLayoutCenter {
+  background: #444444 !important;
+}
+
+.rstudio-themes-flat .rstheme_toolbarWrapper {
+  background: #3a3a3a !important;
+}
+
+.rstudio-themes-flat.editor_dark .ace_editor_theme .GCHYANPCGI {
+    color: #a8a8a8;
+}
+
+.rstudio-themes-flat .rstheme_toolbarWrapper button, .rstudio-themes-flat .rstheme_toolbarWrapper a, .rstudio-themes-flat .rstheme_toolbarWrapper div {
+  color: #a8a8a8 !important;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .gwt-SplitLayoutPanel-HDragger, .rstudio-themes-flat .rstudio-themes-dark-grey .gwt-SplitLayoutPanel-VDragger {
+  /* spliters */
+  background: transparent !important;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark .search, .rstudio-themes-flat.rstudio-themes-dark-menus .search {
+  /* search */
+  background: #3a3a3a !important;
+}
+
+.rstudio-themes-flat #rstudio_workbench_panel_find_in_files td[colspan="2"] {
+  /* file name in Find in Files */
+  color: #c0a982;
+}
+
+/* pane toolbars */
+.rstheme_secondaryToolbar, .rstudio-themes-flat .rstudio-themes-dark-grey .dataGridHeader {
+  background: #3a3a3a !important;
+}
+
+/* menu background */
+.rstudio-themes-flat .popupMiddleCenter,
+.rstudio-themes-flat .menuPopupMiddleCenter,
+.rstudio-themes-flat .suggestPopupMiddleCenter {
+  background: #343434 !important;
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .popupMiddleCenter .item.item-selected,
+.rstudio-themes-flat .menuPopupMiddleCenter .item.item-selected,
+.rstudio-themes-flat .suggestPopupMiddleCenter .item.item-selected {
+  color: #cccccc !important;
+  background: #444444 !important;
+}
+
+.rstudio-themes-flat .themedPopupPanel {
+  border: solid 1px #3a3a3a;
+}
+
+.rstudio-themes-flat .themedPopupPanel ~ div.popupContent div:nth-child(1) {
+  border: solid 1px #3a3a3a;
+}
+
+.rstudio-themes-flat .popupContent {
+  background: #343434;
+  color: #cccccc;
+  border-color: #3a3a3a;
+}
+
+.rstudio-themes-flat .popupContent:not(.popupMiddleCenterInner) div div:nth-child(2) {
+  background-color: unset;
+  border: none;
+}
+
+.rstudio-themes-flat .popupContent + .rstudio-themes-scrollbars {
+  border-color: #3a3a3a;
+}
+
+.rstudio-themes-flat .gwt-PopupPanel .popupContent {
+  background: #343434;
+  padding: 2px;
+}
+
+.rstudio-themes-flat .gwt-PopupPanel .popupContent table {
+  background: #cccccc;
+  border: 0;
+}
+
+.rstudio-themes-flat .gwt-PopupPanel .popupContent table .gwt-Label {
+  color: #343434;
+}
+
+.rstudio-themes-flat.rstudio-themes-dark-menus .gwt-MenuItem.gwt-MenuItem-selected, .rstudio-themes-flat.rstudio-themes-dark-menus .gwt-MenuItem.gwt-MenuItem-selected > table {
+  background: #444444;
+  color: #cccccc;
+}
+
+/* datagrid */
+.rstudio-themes-dark .dataGridHeader,
+.rstudio-themes-dark tr[__gwt_header_row] > :-webkit-any(td, th),
+.rstudio-themes-dark .dataTables_info {
+  background-color: #343434 !important;
+  border-color: #3a3a3a !important;
+}
+
+/* hacky toolbars section */
+.rstudio-themes-flat .rstudio-themes-dark-grey {
+  /* this next one might not be needed anymore (at least after 1.4+) */
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .windowframe > div:last-child > div > div > div > div > div:not(.gwt-TabLayoutPanelTabs) {
+  background: #3a3a3a !important;
+}
+
+.rstudio-themes-flat .rstudio-themes-dark-grey .windowframe > div:last-child > div > div > div:nth-child(3) > div {
+  background: #3a3a3a !important;
+}
+
+/* Data Frame Preview */
+.dataTables_wrapper thead th {
+  background-color: #2d2d2d !important;
+  color: #cccccc !important;
+}
+
+.dataTables_scrollBody table tbody td:first-child {
+  background: #2d2d2d !important;
+  color: #cccccc !important;
+}
+
+.dataTables_info {
+  background: #2d2d2d !important;
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat.rstudio-themes-dark-grey #rsGridData_info, .rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead th, .rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable thead td, .rstudio-themes-flat.rstudio-themes-dark-grey table.dataTable tbody td {
+    border-color: #444444;
+}
+
+/* scrollbars */
+.rstudio-themes-flat {
+  /* Works on Firefox */
+  scrollbar-width: auto;
+  scrollbar-color: #3a3a3a #343434;
+  /* Works on Chrome, Edge, and Safari */
+}
+
+.rstudio-themes-flat ::-webkit-scrollbar {
+  width: auto;
+}
+
+.rstudio-themes-flat *::-webkit-scrollbar-track {
+  background: #343434;
+}
+
+.rstudio-themes-flat *::-webkit-scrollbar-thumb {
+  background-color: #3a3a3a;
+  border-radius: 0px;
+  border: 2px solid #343434;
+}
+
+.rstudio-themes-flat *::-webkit-scrollbar-thumb:hover {
+  background-color: #444444;
+}
+
+/* fix overly zealous css rules */
+.gwt-DialogBox-ModalDialog .dialogContent .gwt-Label {
+  color: #333333;
+}
+
+/* job progress bar */
+.rstheme_toolbarWrapper [role="progressbar"] > div, .windowframe [role="progressbar"] > div {
+  background-color: #c0a982;
+}
+
+/* borders on toolbar under editor */
+.rstudio-themes-flat .rstudio-themes-dark table.rstudio-themes-background td > div:first-child {
+  border-color: #3a3a3a !important;
+}
+
+/* Borrowed from https://github.com/anthonynorth/rscodeio */
+/* splitters */
+.rstudio-themes-flat > .rstudio-themes-dark .gwt-SplitLayoutPanel-HDragger {
+  border-color: #3a3a3a;
+}
+
+.rstudio-themes-flat > .rstudio-themes-dark .gwt-SplitLayoutPanel-VDragger {
+  border-color: #3a3a3a;
+}
+
+.rstudio-themes-flat > .rstudio-themes-dark .gwt-SplitLayoutPanel td {
+  border-color: #343434 !important;
+}
+
+/* window containers */
+.rstudio-themes-flat
+> .rstudio-themes-dark
+:-webkit-any(.windowframe, .rstheme_minimizedWindowObject)
+> div:last-child {
+  border-radius: 0;
+  border-color: #343434;
+}
+
+/* main toolbar */
+.rstudio-themes-dark > div:last-child > div > div > .rstheme_toolbarWrapper,
+.rstudio-themes-dark [role="application"] > div > .rstheme_toolbarWrapper {
+  border-color: #3a3a3a;
+}
+
+/* toolbars */
+.rstudio-themes-dark .rstheme_toolbarWrapper,
+.rstudio-themes-dark .rstheme_secondaryToolbar {
+  border-color: #3a3a3a !important;
+  border-radius: 0 !important;
+}
+
+/* other toolbars */
+.rstudio-themes-dark .rstudio-themes-background {
+  border-top-color: #3a3a3a !important;
+  border-bottom-color: #3a3a3a !important;
+  border-radius: 0 !important;
+}
+
+/* tabs container */
+.rstudio-themes-dark .gwt-TabLayoutPanelTabs,
+.rstudio-themes-dark .windowframe,
+.rstudio-themes-dark :-webkit-any(.rstheme_multiPodUtilityTabArea, .GD15MCFCCS, .GJQ3LUQCCS) {
+  background: #3a3a3a !important;
+  border-color: #3a3a3a !important;
+}
+
+/* tabs */
+.rstudio-themes-dark .gwt-TabLayoutPanelTab:not(.gwt-TabLayoutPanelTab-selected) .rstheme_tabLayoutCenter,
+.rstudio-themes-dark .rstheme_minimizedWindowObject .rstheme_center {
+  border-color: #3a3a3a !important;
+  border-right: 1px solid #3a3a3a !important;
+  border-radius: 0;
+}
+
+/* active tab */
+.rstudio-themes-dark .gwt-TabLayoutPanelTab.gwt-TabLayoutPanelTab-selected .rstheme_tabLayoutCenter {
+  border: none;
+}
+
+.terminal {
+  background-color: #343434;
+  color: #cccccc;
+  font-feature-settings: "liga" 0;
+  position: relative;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+.terminal.xterm-cursor-style-block.focus:not(.xterm-cursor-blink-on) .terminal-cursor {
+  background-color: #cccccc;
+  color: #cccccc;
+}
+
+.terminal.focus.xterm-cursor-style-bar:not(.xterm-cursor-blink-on) .terminal-cursor::before, .terminal.focus.xterm-cursor-style-underline:not(.xterm-cursor-blink-on) .terminal-cursor::before {
+  content: '';
+  position: absolute;
+  background-color: #343434;
+}
+
+.terminal:not(.focus) .terminal-cursor {
+  outline: 1px solid #cccccc;
+  outline-offset: -1px;
+}
+
+.terminal .xterm-selection {
+  opacity: 1 !important;
+  z-index: 0 !important;
+}
+
+.terminal .xterm-selection div {
+  position: absolute;
+  background-color: rgba(168, 168, 168, 0.3);
+}
+
+.terminal .xterm-viewport {
+  background-color: #343434;
+  overflow-y: scroll;
+}
+
+.xtermInvertColor {
+  color: #cccccc;
+}
+
+.xtermInvertBgColor {
+  background-color: #343434;
+}
+
+.xtermBold {
+  font-weight: bold;
+}
+
+.xtermUnderline {
+  text-decoration: underline;
+}
+
+.xtermBlink {
+  text-decoration: blink;
+}
+
+.xtermHidden {
+  visibility: hidden;
+}
+
+.xtermItalic {
+  font-style: italic;
+}
+
+.xtermStrike {
+  text-decoration: line-through;
+}
+
+.xtermColor0 {
+  color: #343434 !important;
+}
+
+.xtermBgColor0 {
+  background-color: #343434;
+}
+
+.xtermColor1 {
+  color: #af7150 !important;
+}
+
+.xtermBgColor1 {
+  background-color: #af7150;
+}
+
+.xtermColor2 {
+  color: #8a766c !important;
+}
+
+.xtermBgColor2 {
+  background-color: #8a766c;
+}
+
+.xtermColor3 {
+  color: #b47664 !important;
+}
+
+.xtermBgColor3 {
+  background-color: #b47664;
+}
+
+.xtermColor4 {
+  color: #a78854 !important;
+}
+
+.xtermBgColor4 {
+  background-color: #a78854;
+}
+
+.xtermColor5 {
+  color: #918775 !important;
+}
+
+.xtermBgColor5 {
+  background-color: #918775;
+}
+
+.xtermColor6 {
+  color: #b89268 !important;
+}
+
+.xtermBgColor6 {
+  background-color: #b89268;
+}
+
+.xtermColor7 {
+  color: #a8a8a8 !important;
+}
+
+.xtermBgColor7 {
+  background-color: #a8a8a8;
+}
+
+.xtermColor8 {
+  color: #818181 !important;
+}
+
+.xtermBgColor8 {
+  background-color: #818181;
+}
+
+.xtermColor9 {
+  color: #c59981 !important;
+}
+
+.xtermBgColor9 {
+  background-color: #c59981;
+}
+
+.xtermColor10 {
+  color: #ab9b92 !important;
+}
+
+.xtermBgColor10 {
+  background-color: #ab9b92;
+}
+
+.xtermColor11 {
+  color: #cba095 !important;
+}
+
+.xtermBgColor11 {
+  background-color: #cba095;
+}
+
+.xtermColor12 {
+  color: #c0a982 !important;
+}
+
+.xtermBgColor12 {
+  background-color: #c0a982;
+}
+
+.xtermColor13 {
+  color: #b1aa9c !important;
+}
+
+.xtermBgColor13 {
+  background-color: #b1aa9c;
+}
+
+.xtermColor14 {
+  color: #d0b598 !important;
+}
+
+.xtermBgColor14 {
+  background-color: #d0b598;
+}
+
+.xtermColor15 {
+  color: #cccccc !important;
+}
+
+.xtermBgColor15 {
+  background-color: #cccccc;
+}
+
+.rstudio-themes-flat .gwt-TabLayoutPanelTab-selected .gwt-TabLayoutPanelTabInner .rstheme_tabLayoutCenter {
+  box-shadow: 0 2px 0 #c59981 inset;
+  border-radius: 0 !important;
+}
+
+.rstudio-themes-dark .dataGridHeader, .rstudio-themes-dark tr[__gwt_header_row] > :-webkit-any(td, th), .rstudio-themes-dark .dataTables_info {
+  background-color: #3a3a3a !important;
+  border-color: #3a3a3a !important;
+}
+
+#rstudio_command_palette_search,
+#rstudio_command_palette_list [id^="rstudio_command_"],
+input#rstudio_command_palette_search {
+  background-color: #343434;
+  border: none;
+}
+
+#rstudio_command_palette_list {
+  background-color: #343434;
+  border-color: #343434;
+}
+
+.rstudio-themes-flat .rstudio-themes-border {
+  border-color: #343434;
+}
+
+.rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"] table .gwt-Label,
+.rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"] table td {
+  background-color: #343434;
+  color: #cccccc;
+}
+
+.rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"]:hover, .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"]:hover [id^="rstudio_command_entry"], .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"]:hover table .gwt-Label, .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [id*="rstudio_command_"]:hover table td {
+  background-color: #444444;
+}
+
+.rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [aria-selected="true"], .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [aria-selected="true"] [id^="rstudio_command_entry"], .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [aria-selected="true"] table .gwt-Label, .rstudio-themes-flat .gwt-PopupPanel .popupContent #rstudio_command_palette_list [aria-selected="true"] table td {
+  background-color: #4e4e4e;
+}
+
+input#rstudio_command_palette_search {
+  padding: 10px 0;
+  width: 580px;
+  border: none;
+}
+
+.js-focus-visible input#rstudio_command_palette_search {
+  outline-offset: 5px !important;
+}
+
+.rstudio-themes-flat .popupContent [id^="rstudio_command"] [id^="rstudio_command_entry_"] .gwt-Label, .rstudio-themes-flat .popupContent [id^="rstudio_command"] [id^="rstudio_command_entry_"] .gwt-Label span {
+  border: none;
+}
+
+.rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel > div[aria-hidden="true"] + div {
+  height: 40px !important;
+  background: #3a3a3a;
+}
+
+.rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs table.rstheme_tabLayoutCenter {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+}
+
+.rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs .rstheme_tabLayoutCenter td {
+  vertical-align: middle !important;
+}
+
+.rstudio-themes-flat > :not(.gwt-DialogBox-ModalDialog) .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs > div:empty {
+  height: 40px !important;
+}
+
+.rstudio-themes-flat .gwt-TabLayoutPanel .gwt-TabLayoutPanelTabs {
+  border-color: #3a3a3a !important;
+}
+
+.rstudio-themes-flat .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTabInner table.rstheme_tabLayoutCenter tbody > tr > td:last-child > img {
+  display: none;
+}
+
+.rstudio-themes-flat .gwt-TabLayoutPanelTabs .gwt-TabLayoutPanelTabInner table.rstheme_tabLayoutCenter:hover tbody > tr > td:last-child > img {
+  display: inline-block;
+  position: absolute !important;
+  top: 0 !important;
+  padding-left: 3px;
+}
+
+.rstudio-themes-flat .gwt-TabLayoutPanelTabs [id^="rstudio_workbench_"] .gwt-TabLayoutPanelTabInner table.rstheme_tabLayoutCenter:hover tbody > tr > td:last-child > img {
+  padding-top: 5px;
+}
+
+.rstudio-themes-flat .windowframe .gwt-TabLayoutPanel > div:last-child,
+.rstudio-themes-flat .gwt-TabLayoutPanel.rstudio_source_panel > div:last-child {
+  top: 38px !important;
+}
+
+.windowframe > div:last-child > div > div > div[aria-hidden="true"] + div + div {
+  height: 40px !important;
+}
+
+.rstudio-themes-flat [id^="rstudio_dialog"],
+.rstudio-themes-flat :not(.gwt-MenuItem-selected):not(.gwt-MenuItem) > [id^="rstudio_label"],
+.rstudio-themes-flat .dialogContent [id^="rstudio_label_"][id$="_panel"] :not(button) > table > tbody > td,
+.rstudio-themes-flat .dialogTopCenter,
+.rstudio-themes-flat .dialogTop,
+.rstudio-themes-flat .dialogMiddle,
+.rstudio-themes-flat .dataGridHeader {
+  background: #3a3a3a !important;
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .dialogContent > table:first-child:last-child :not(button) > table, .rstudio-themes-flat .dialogContent > table:first-child:last-child :not(button) > table > tbody > td {
+  background: #3a3a3a !important;
+  color: #cccccc !important;
+  border-color: #3a3a3a !important;
+}
+
+.rstudio-themes-flat .dialogContent label.gwt-Label {
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .dialogContent .gwt-TabLayoutPanelContent .gwt-Label:not(label) {
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat [id^="rstudio_dialog"],
+.rstudio-themes-flat .dialogTop .dialogTopCenter,
+.rstudio-themes-flat .gwt-DialogBox-ModalDialog,
+.rstudio-themes-flat .dataGridHeader {
+  /* outer border */
+  border-color: #444444 !important;
+}
+
+.rstudio-themes-flat .dialogContent > table div,
+.rstudio-themes-flat .dialogContent [id^="rstudio_label_"][id$="_panel"] table tbody td {
+  border-color: #444444;
+}
+
+.rstudio-themes-flat .dialogContent .gwt-TabLayoutPanelTab {
+  border-color: #444444 !important;
+}
+
+.rstudio-themes-flat [id^="rstudio_label"][aria-selected="true"] div,
+.rstudio-themes-flat .dialogContent .gwt-TabLayoutPanelTab-selected div {
+  background-color: transparent !important;
+}
+
+.rstudio-themes-flat .dialogContent .gwt-Button-DialogAction table,
+.rstudio-themes-flat .dialogContent .gwt-Button-DialogAction table td,
+.rstudio-themes-flat .dialogContent button table,
+.rstudio-themes-flat .dialogContent button:not(:hover) table > tbody > tr > td > div {
+  background: #3a3a3a !important;
+  color: #cccccc !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] > div,
+.rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] [role="option"],
+.rstudio-themes-flat .gwt-DialogBox .dialogContent [role="listbox"] [role="option"] .gwt-Label,
+.rstudio-themes-flat .gwt-DialogBox .dialogContent [role="tablist"],
+.rstudio-themes-flat .gwt-DialogBox .dialogContent [role="tablist"] [role="tab"]:not([aria-selected="true"]) .gwt-Label,
+.rstudio-themes-flat .gwt-DialogBox .dialogContent .gwt-TabLayoutPanelTab {
+  /* Dialog options lists and tabs */
+  background: #3a3a3a !important;
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .gwt-DialogBox .dialogContent [id^="rstudio_label"][aria-selected="true"],
+.rstudio-themes-flat .gwt-DialogBox .dialogContent [id^="rstudio_label"][aria-selected="true"] td,
+.rstudio-themes-flat .gwt-DialogBox .dialogContent .gwt-TabLayoutPanelTab-selected {
+  background-color: #444444 !important;
+  border-color: #444444 !important;
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .gwt-DialogBox .dialogContent .gwt-TabLayoutPanelTab-selected .gwt-Label {
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .gwt-DialogBox .dialogContent [id^="rstudio_label"][aria-selected="true"] td .gwt-Label {
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .dialogContent button {
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: #444444 !important;
+  border-radius: 3px !important;
+}
+
+.rstudio-themes-flat .dialogContent .gwt-Button-DialogAction:hover table,
+.rstudio-themes-flat .dialogContent .gwt-Button-DialogAction:hover table div,
+.rstudio-themes-flat .dialogContent button:hover,
+.rstudio-themes-flat .dialogContent button:hover table,
+.rstudio-themes-flat .dialogContent .gwt-Button:hover > table > tbody > tr > td,
+.rstudio-themes-flat .dialogContent button:hover table > tbody > tr > td > div {
+  color: #cccccc !important;
+  background: #4e4e4e !important;
+  border-color: #444444 !important;
+}
+
+.rstudio-themes-flat .dialogContent input {
+  background: #3a3a3a !important;
+  color: #cccccc !important;
+  border-color: #444444 !important;
+}
+
+.rstudio-themes-flat .dialogContent input[type="checkbox"] {
+  background: #444444 !important;
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .dialogContent input[type="checkbox"]:checked::before {
+  content: "\2713" !important;
+  color: #cccccc !important;
+  vertical-align: top;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.rstudio-themes-flat .dialogContent select {
+  background: #444444 !important;
+  color: #cccccc !important;
+}
+
+.rstudio-themes-flat .rstudio-HyperlinkLabel {
+  color: #cccccc;
+}
+
+.rstudio-themes-flat .search {
+  /* code search */
+  background-color: #3a3a3a;
+  color: #cccccc;
+}
+
+.rstudio-themes-flat .search .rstheme_center img {
+  display: none;
+}
+
+.rstudio-themes-flat .search .rstheme_center::before {
+  content: '\27a0';
+  color: #cccccc;
+}
+
+.rstudio-themes-flat .search .rstheme_center > button::before {
+  content: '\2297';
+  color: #cccccc;
+  position: relative;
+  top: -3px;
+  font-size: 1.25em;
+}
+
+.rstudio-themes-flat .search .rstheme_center > button:hover {
+  background: unset !important;
+  border: unset !important;
+}
+
+/* Rainbow Parenthesis */
+.rstudio-themes-dark .ace_paren_color_0 {
+  color: #cccccc;
+}
+
+.rstudio-themes-dark .ace_paren_color_1 {
+  color: #c59981;
+}
+
+.rstudio-themes-dark .ace_paren_color_2 {
+  color: #b47664;
+}
+
+.rstudio-themes-dark .ace_paren_color_3 {
+  color: #b89268;
+}
+
+.rstudio-themes-dark .ace_paren_color_4 {
+  color: #8a766c;
+}
+
+.rstudio-themes-dark .ace_paren_color_5 {
+  color: #d0b598;
+}
+
+.rstudio-themes-dark .ace_paren_color_6 {
+  color: #c0a982;
+}
+
+
+.gwt-DialogBox-ModalDialog .dialogContent .gwt-Label {
+    color: #cccccc;
+}
+
+/* Choose layout of panels */
+.GCHYANPCKRB td.GCHYANPCKRB {
+    background-color: #3a3a3a;
+    vertical-align: top;
+    padding: 0;
+    border: 0.5px solid #555;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.rstudio-themes-flat.editor_dark h1, .rstudio-themes-flat.editor_dark h2, .rstudio-themes-flat.editor_dark h3, .rstudio-themes-flat.editor_dark h4 {
+    color: #cccccc !important;
+    background: none !important;
+    border-color: #6a6a6a !important;
+}
+
+/* Switch projects window */
+.GCHYANPCMUB {
+    width: 400px;
+    height: 170px;
+    border: 1px solid #bbb;
+    background-color: #3a3a3a;
+}
+
+.GCHYANPCBTB, .GCHYANPCITB, .GCHYANPCDUB, .GCHYANPCLTB {
+    background: #3a3a3a;
+}
+
+.GCHYANPCCTB, .GCHYANPCJTB, .GCHYANPCEUB, .GCHYANPCMTB, .GCHYANPCKTB {
+    border: 2px solid #3a3a3a;
+}
+
+.GCHYANPCLUB {
+    color: #818181;
+    font-size: 0.9em;
+    word-wrap: break-word;
+}
+
+/*Import Excel data import options*/
+.GCHYANPCNTD {
+    border: 1px solid #3a3a3a;
+    background-color: #3a3a3a;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 3px;
+    padding-right: 6px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.gwt-DialogBox .dialogMiddleCenter, .GCHYANPCOR .popupMiddleCenter {
+    background: #3a3a3a;
+}
+
+.GCHYANPCCQD {
+    width: calc(100% - 10px);
+    height: 110px;
+    border: 1px solid #999;
+    background-color: #3a3a3a;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/*Import text data import options*/
+.GCHYANPCASD {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    border: 1px solid #999;
+    background-color: #3a3a3a;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/*Import statistical data import options*/
+.GCHYANPCPSD {
+    border: 1px solid #999;
+    background-color: #3a3a3a;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 3px;
+    padding-right: 6px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.rstudio-themes-flat.editor_dark .ace_editor_theme .GCHYANPCGI {
+    color: #cccccc;
+}
