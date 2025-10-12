@@ -1,2 +1,2 @@
 # Autumn Dark Theme for Omarchy
-A relaxing dark theme for Omarchy.
+A relaxing dark theme for Omarchy. Configured with Aether.
