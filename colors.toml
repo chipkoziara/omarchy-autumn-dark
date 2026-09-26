@@ -1,30 +1,38 @@
+# Autumn Dark palette for Omarchy v4.
+#
+# Every themed app is generated from these colors by omarchy-theme-set-templates,
+# so keep this file as the single source of truth. The `selection` pair drives
+# selected rows/buttons and text selection; the ANSI names map to color0-15.
+
 mode = "dark"
 
 accent = "#a78854"
-
-# Selected-item colors. The theme is configured with Aether, whose GTK palette
-# uses the accent as the selected background and the dark background as the
-# selected foreground (theme_selected_bg_color / theme_selected_fg_color). These
-# feed Gum's GUM_*_SELECTED_* vars, the terminal selection, and Helix.
 selection = "#a78854"
 selection_foreground = "#343434"
+muted = "#818181"
 
 background = "#343434"
-foreground = "#cccccc"
+dark_background = "#272727"
+darker_background = "#1a1a1a"
+lighter_background = "#49433a"
 
-color0 = "#343434"
-color1 = "#af7150"
-color2 = "#8a766c"
-color3 = "#b47664"
-color4 = "#a78854"
-color5 = "#918775"
-color6 = "#b89268"
-color7 = "#cccccc"
-color8 = "#818181"
-color9 = "#c59981"
-color10 = "#ab9b92"
-color11 = "#cba095"
-color12 = "#c0a982"
-color13 = "#b1aa9c"
-color14 = "#d0b598"
-color15 = "#cccccc"
+foreground = "#cccccc"
+dark_foreground = "#818181"
+light_foreground = "#cccccc"
+bright_foreground = "#cccccc"
+
+red = "#af7150"
+yellow = "#b47664"
+orange = "#b47664"
+green = "#8a766c"
+cyan = "#b89268"
+blue = "#a78854"
+magenta = "#918775"
+brown = "#5a3b32"
+
+bright_red = "#c59981"
+bright_yellow = "#cba095"
+bright_green = "#ab9b92"
+bright_cyan = "#d0b598"
+bright_blue = "#c0a982"
+bright_magenta = "#b1aa9c"
