@@ -1,0 +1,30 @@
+mode = "dark"
+
+accent = "#a78854"
+
+# Selected-item colors. The theme is configured with Aether, whose GTK palette
+# uses the accent as the selected background and the dark background as the
+# selected foreground (theme_selected_bg_color / theme_selected_fg_color). These
+# feed Gum's GUM_*_SELECTED_* vars, the terminal selection, and Helix.
+selection = "#a78854"
+selection_foreground = "#343434"
+
+background = "#343434"
+foreground = "#cccccc"
+
+color0 = "#343434"
+color1 = "#af7150"
+color2 = "#8a766c"
+color3 = "#b47664"
+color4 = "#a78854"
+color5 = "#918775"
+color6 = "#b89268"
+color7 = "#cccccc"
+color8 = "#818181"
+color9 = "#c59981"
+color10 = "#ab9b92"
+color11 = "#cba095"
+color12 = "#c0a982"
+color13 = "#b1aa9c"
+color14 = "#d0b598"
+color15 = "#cccccc"
