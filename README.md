@@ -4,6 +4,8 @@ A relaxing dark theme for [Omarchy](https://omarchy.org) built around warm
 autumn tones: muted browns and sepia over a soft charcoal background, with a
 dusty amber accent.
 
+![Autumn Dark preview](preview.png)
+
 ## Install
 
 ```bash
